@@ -1,0 +1,6 @@
+on:
+    workflow_dispatch:
+        jobs:
+            my_job:
+                name: I eat cats
+                    runs-on: windows-latest                   
